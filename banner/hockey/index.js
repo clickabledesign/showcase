@@ -966,17 +966,7 @@ p.nominalBounds = new cjs.Rectangle(-506.8,-430.2,1498.3,708.8);
 
 	// timeline functions:
 	this.frame_0 = function() {
-		var bodyStyle = document.body.style;
-		bodyStyle.margin = 0;
-		bodyStyle.padding = 0;
-		
 		var _this = this;
-		
-		document.addEventListener("click", fl_ClickToGoToWebPage);
-		
-		function fl_ClickToGoToWebPage() {
-		window.open(clickTAG, "_blank");
-		}
 		
 		stage.canvas.onmouseover = fl_MouseOverHandler_5;
 		
@@ -1039,18 +1029,18 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1493293973358", id:"bg"},
-		{src:"images/canada_big.png?1493293973358", id:"canada_big"},
-		{src:"images/iihf_logo.png?1493293973358", id:"iihf_logo"},
-		{src:"images/logo.jpg?1493293973358", id:"logo"},
-		{src:"images/maska_01.png?1493293973358", id:"maska_01"},
-		{src:"images/maska_02.png?1493293973358", id:"maska_02"},
-		{src:"images/maska_03.png?1493293973358", id:"maska_03"},
-		{src:"images/maska_05.png?1493293973358", id:"maska_05"},
-		{src:"images/maska_06.png?1493293973358", id:"maska_06"},
-		{src:"images/maska_07.png?1493293973358", id:"maska_07"},
-		{src:"images/pole.png?1493293973358", id:"pole"},
-		{src:"images/rus_big.png?1493293973358", id:"rus_big"}
+		{src:"images/bg.jpg?1493296343633", id:"bg"},
+		{src:"images/canada_big.png?1493296343633", id:"canada_big"},
+		{src:"images/iihf_logo.png?1493296343633", id:"iihf_logo"},
+		{src:"images/logo.jpg?1493296343633", id:"logo"},
+		{src:"images/maska_01.png?1493296343633", id:"maska_01"},
+		{src:"images/maska_02.png?1493296343633", id:"maska_02"},
+		{src:"images/maska_03.png?1493296343633", id:"maska_03"},
+		{src:"images/maska_05.png?1493296343633", id:"maska_05"},
+		{src:"images/maska_06.png?1493296343633", id:"maska_06"},
+		{src:"images/maska_07.png?1493296343633", id:"maska_07"},
+		{src:"images/pole.png?1493296343633", id:"pole"},
+		{src:"images/rus_big.png?1493296343633", id:"rus_big"}
 	],
 	preloads: []
 };
