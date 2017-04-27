@@ -21,7 +21,7 @@ function handleFileLoad(evt) {
 }
 
 function handleComplete(evt) {
-	exportRoot = new lib.babaloon_640x305();
+	exportRoot = new lib.league_of_angels_2();
 
 	stage = new createjs.Stage(canvas);
 	stage.addChild(exportRoot);

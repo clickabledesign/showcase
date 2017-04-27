@@ -21,7 +21,7 @@ function handleFileLoad(evt) {
 }
 
 function handleComplete(evt) {
-	exportRoot = new lib.babaloon_640x305();
+	exportRoot = new lib.sea1();
 
 	stage = new createjs.Stage(canvas);
 	stage.addChild(exportRoot);
