@@ -1564,13 +1564,6 @@ p.nominalBounds = new cjs.Rectangle(5,-117.7,39.1,38.1);
 		this.back.x = - stage.mouseX / 30;
 		this.back.y = - stage.mouseY / 30;
 		}
-		
-		
-		document.addEventListener("click", fl_ClickToGoToWebPage);
-		
-		function fl_ClickToGoToWebPage() {
-		window.open("http://clickable.design/en/", "_blank");
-		}
 	}
 
 	// actions tween:
@@ -1629,31 +1622,31 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/asd.png?1493282823882", id:"asd"},
-		{src:"images/back.jpg?1493282823883", id:"back"},
-		{src:"images/cvb.png?1493282823883", id:"cvb"},
-		{src:"images/dfgdf.png?1493282823883", id:"dfgdf"},
-		{src:"images/ert.png?1493282823883", id:"ert"},
-		{src:"images/ewr.png?1493282823883", id:"ewr"},
-		{src:"images/jhkjhk.png?1493282823883", id:"jhkjhk"},
-		{src:"images/jkjh.png?1493282823883", id:"jkjh"},
-		{src:"images/rty.png?1493282823883", id:"rty"},
-		{src:"images/sdf.png?1493282823883", id:"sdf"},
-		{src:"images/sdfd.png?1493282823883", id:"sdfd"},
-		{src:"images/sdfsdf.png?1493282823883", id:"sdfsdf"},
-		{src:"images/Sniper_03.png?1493282823883", id:"Sniper_03"},
-		{src:"images/Sniper_06.png?1493282823883", id:"Sniper_06"},
-		{src:"images/Sniper_09.png?1493282823883", id:"Sniper_09"},
-		{src:"images/Sniper_12.png?1493282823883", id:"Sniper_12"},
-		{src:"images/Sniper_19.png?1493282823883", id:"Sniper_19"},
-		{src:"images/Sniper_22.png?1493282823883", id:"Sniper_22"},
-		{src:"images/Sniper_25.png?1493282823883", id:"Sniper_25"},
-		{src:"images/tuman.png?1493282823883", id:"tuman"},
-		{src:"images/w256h2561380453915MouseOptions256x25632.png?1493282823883", id:"w256h2561380453915MouseOptions256x25632"},
-		{src:"images/wer.png?1493282823883", id:"wer"},
-		{src:"images/werer.png?1493282823883", id:"werer"},
-		{src:"images/wewee.png?1493282823883", id:"wewee"},
-		{src:"images/zdc.png?1493282823883", id:"zdc"}
+		{src:"images/asd.png?1493296209552", id:"asd"},
+		{src:"images/back.jpg?1493296209552", id:"back"},
+		{src:"images/cvb.png?1493296209552", id:"cvb"},
+		{src:"images/dfgdf.png?1493296209552", id:"dfgdf"},
+		{src:"images/ert.png?1493296209552", id:"ert"},
+		{src:"images/ewr.png?1493296209552", id:"ewr"},
+		{src:"images/jhkjhk.png?1493296209552", id:"jhkjhk"},
+		{src:"images/jkjh.png?1493296209552", id:"jkjh"},
+		{src:"images/rty.png?1493296209552", id:"rty"},
+		{src:"images/sdf.png?1493296209552", id:"sdf"},
+		{src:"images/sdfd.png?1493296209552", id:"sdfd"},
+		{src:"images/sdfsdf.png?1493296209552", id:"sdfsdf"},
+		{src:"images/Sniper_03.png?1493296209552", id:"Sniper_03"},
+		{src:"images/Sniper_06.png?1493296209552", id:"Sniper_06"},
+		{src:"images/Sniper_09.png?1493296209552", id:"Sniper_09"},
+		{src:"images/Sniper_12.png?1493296209552", id:"Sniper_12"},
+		{src:"images/Sniper_19.png?1493296209552", id:"Sniper_19"},
+		{src:"images/Sniper_22.png?1493296209552", id:"Sniper_22"},
+		{src:"images/Sniper_25.png?1493296209552", id:"Sniper_25"},
+		{src:"images/tuman.png?1493296209552", id:"tuman"},
+		{src:"images/w256h2561380453915MouseOptions256x25632.png?1493296209552", id:"w256h2561380453915MouseOptions256x25632"},
+		{src:"images/wer.png?1493296209552", id:"wer"},
+		{src:"images/werer.png?1493296209552", id:"werer"},
+		{src:"images/wewee.png?1493296209552", id:"wewee"},
+		{src:"images/zdc.png?1493296209552", id:"zdc"}
 	],
 	preloads: []
 };
