@@ -67,6 +67,18 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	}
 
 
+(lib.Символ39 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 1
+	this.instance = new lib.btn_head();
+	this.instance.parent = this;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Символ39, new cjs.Rectangle(0,0,309,82), null);
+
+
 (lib.Символ38 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -454,18 +466,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 }).prototype = getMCSymbolPrototype(lib.Символ10, new cjs.Rectangle(0,0,181,45.9), null);
 
 
-(lib.Символ5 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Слой 1
-	this.instance = new lib.btn_head();
-	this.instance.parent = this;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.Символ5, new cjs.Rectangle(0,0,309,82), null);
-
-
 (lib.Символ4 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -586,19 +586,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,181.5,250);
 p.nominalBounds = new cjs.Rectangle(35.4,-1.5,197.2,100);
 
 
-(lib.Символ15 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Слой 1
-	this.instance = new lib.Символ5();
-	this.instance.parent = this;
-	this.instance.setTransform(90.5,24,0.586,0.586,0,0,0,154.5,41);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.Символ15, new cjs.Rectangle(0,0,181,48.1), null);
-
-
 (lib.Символ12 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -631,6 +618,21 @@ p.nominalBounds = new cjs.Rectangle(35.4,-1.5,197.2,100);
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-4.8,-1.5,212.2,95.7);
+
+
+(lib.Символ5 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 1
+	this.instance = new lib.Символ39();
+	this.instance.parent = this;
+	this.instance.setTransform(154.5,41,1,1,0,0,0,154.5,41);
+	this.instance.filters = [new cjs.ColorMatrixFilter(new cjs.ColorMatrix(-34, 18, -17, 20))];
+	this.instance.cache(-2,-2,313,86);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Символ5, new cjs.Rectangle(0,0,313,86), null);
 
 
 (lib.Символ1 = function(mode,startPosition,loop) {
@@ -695,6 +697,33 @@ p.nominalBounds = new cjs.Rectangle(-4.8,-1.5,212.2,95.7);
 p.nominalBounds = new cjs.Rectangle(-5.9,1.1,246.1,111);
 
 
+(lib.Символ15 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 1
+	this.instance = new lib.Символ5();
+	this.instance.parent = this;
+	this.instance.setTransform(90.5,24,0.586,0.586,0,0,0,154.5,41);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Символ15, new cjs.Rectangle(0,0,185,52), null);
+
+
+(lib.Символ13 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 1
+	this.instance = new lib.Символ12();
+	this.instance.parent = this;
+	this.instance.setTransform(34,43.2,1,1,0,0,0,34,43.2);
+	this.instance.alpha = 0.512;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Символ13, new cjs.Rectangle(0,0,68,86.5), null);
+
+
 (lib.Символ16 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -726,21 +755,7 @@ p.nominalBounds = new cjs.Rectangle(-5.9,1.1,246.1,111);
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1).to({_off:false},0).to({_off:true},1).wait(2));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,181,48.1);
-
-
-(lib.Символ13 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Слой 1
-	this.instance = new lib.Символ12();
-	this.instance.parent = this;
-	this.instance.setTransform(34,43.2,1,1,0,0,0,34,43.2);
-	this.instance.alpha = 0.512;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.Символ13, new cjs.Rectangle(0,0,68,86.5), null);
+p.nominalBounds = new cjs.Rectangle(0,0,185,52);
 
 
 (lib.Символ14копия = function(mode,startPosition,loop) {
@@ -1012,13 +1027,13 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/back.jpg?1502786587564", id:"back"},
-		{src:"images/btn_head.png?1502786587564", id:"btn_head"},
-		{src:"images/gloves.png?1502786587564", id:"gloves"},
-		{src:"images/gloves2.png?1502786587564", id:"gloves2"},
-		{src:"images/logo.png?1502786587564", id:"logo"},
-		{src:"images/mayweather.png?1502786587564", id:"mayweather"},
-		{src:"images/mcgregor.png?1502786587564", id:"mcgregor"}
+		{src:"images/back.jpg?1502870274394", id:"back"},
+		{src:"images/btn_head.png?1502870274394", id:"btn_head"},
+		{src:"images/gloves.png?1502870274394", id:"gloves"},
+		{src:"images/gloves2.png?1502870274394", id:"gloves2"},
+		{src:"images/logo.png?1502870274394", id:"logo"},
+		{src:"images/mayweather.png?1502870274394", id:"mayweather"},
+		{src:"images/mcgregor.png?1502870274394", id:"mcgregor"}
 	],
 	preloads: []
 };
