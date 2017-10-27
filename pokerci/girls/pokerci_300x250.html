@@ -14,7 +14,7 @@
 <title>pokerci_300x250</title>
 <!-- write your code here -->
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="pokerci_300x250.js?1508856582866"></script>
+<script src="pokerci_300x250.js?1509090061191"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -44,10 +44,10 @@ function handleComplete(evt,comp) {
 	}
 	exportRoot = new lib.pokerci_300x250();
 	stage = new lib.Stage(canvas);
-	stage.addChild(exportRoot);
 	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
 	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
 		createjs.Ticker.setFPS(lib.properties.fps);
 		createjs.Ticker.addEventListener("tick", stage);
 	}	    
@@ -81,7 +81,10 @@ function handleComplete(evt,comp) {
 			canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
 			stage.scaleX = pRatio*sRatio;			
 			stage.scaleY = pRatio*sRatio;			
-			lastW = iw; lastH = ih; lastS = sRatio;		
+			lastW = iw; lastH = ih; lastS = sRatio;            
+			stage.tickOnUpdate = false;            
+			stage.update();            
+			stage.tickOnUpdate = true;		
 		}
 	}
 	makeResponsive(false,'both',false,1);	
