@@ -43,6 +43,19 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	}
 
 
+(lib.Символ55 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#000000").s().p("A/yV9MAAAgr5MA/lAAAMAAAAr5g");
+	this.shape.setTransform(180.6,140.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Символ55, new cjs.Rectangle(-22.9,0,407,281), null);
+
+
 (lib.Символ52 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -1476,6 +1489,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,318.9,97.2);
 	this.instance_3 = new lib.Символ29();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(100.1,344.4,0.462,0.462,0,0,0,167.2,56.8);
+	this.instance_3.shadow = new cjs.Shadow("rgba(0,0,0,0.4)",3,3,4);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
 
@@ -1483,6 +1497,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,318.9,97.2);
 	this.instance_4 = new lib.Символ22();
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(83.8,130.8,0.311,0.311,0,0,0,229.1,209.5);
+	this.instance_4.shadow = new cjs.Shadow("rgba(0,0,0,0.4)",3,3,4);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
 
@@ -1498,19 +1513,27 @@ p.nominalBounds = new cjs.Rectangle(0,0,318.9,97.2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_6},{t:this.instance_5}]}).wait(1));
 
-	// Слой 1
-	this.instance_7 = new lib.Символ34();
+	// Слой_3
+	this.instance_7 = new lib.Символ55();
 	this.instance_7.parent = this;
-	this.instance_7.setTransform(115,347.7,1,2.25,0,0,0,750.6,203.1);
+	this.instance_7.setTransform(94,276.6,1,1,0,0,0,113,140.5);
+	this.instance_7.alpha = 0.41;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(1));
 
-	// Слой_4
-	this.instance_8 = new lib.Символ9();
+	// Слой 1
+	this.instance_8 = new lib.Символ34();
 	this.instance_8.parent = this;
-	this.instance_8.setTransform(117.5,346,0.818,0.818,0,0,0,521,521);
+	this.instance_8.setTransform(115,347.7,1,2.25,0,0,0,750.6,203.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(1));
+
+	// Слой_4
+	this.instance_9 = new lib.Символ9();
+	this.instance_9.parent = this;
+	this.instance_9.setTransform(117.5,346,0.818,0.818,0,0,0,521,521);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-475.6,174.7,1501.6,1768.2);
@@ -1523,9 +1546,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1509369428303", id:"bg"},
-		{src:"images/man.png?1509369428303", id:"man"},
-		{src:"images/man2.png?1509369428303", id:"man2"}
+		{src:"images/bg.jpg?1509374337445", id:"bg"},
+		{src:"images/man.png?1509374337445", id:"man"},
+		{src:"images/man2.png?1509374337445", id:"man2"}
 	],
 	preloads: []
 };
