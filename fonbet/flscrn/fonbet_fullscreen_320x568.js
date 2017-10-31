@@ -157,6 +157,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,331.7,45.5);
 }).prototype = getMCSymbolPrototype(lib.Символ43, new cjs.Rectangle(-20,-68,499.3,563.9), null);
 
 
+(lib.Символ42копия = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+}).prototype = getMCSymbolPrototype(lib.Символ42копия, null, null);
+
+
 (lib.Символ33 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -1388,19 +1394,6 @@ p.nominalBounds = new cjs.Rectangle(33,10.1,364.8,111.3);
 }).prototype = getMCSymbolPrototype(lib.Символ1, new cjs.Rectangle(-434.2,16,357.6,869.8), null);
 
 
-(lib.Символ42копия = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Слой_2
-	this.instance = new lib.Символ1();
-	this.instance.parent = this;
-	this.instance.setTransform(145.5,339.4,0.97,0.814,0,-4.1,0,-255.2,450.9);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.Символ42копия, new cjs.Rectangle(-49.5,-13.5,375.4,705.8), null);
-
-
 (lib.Символ42 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -1501,42 +1494,49 @@ p.nominalBounds = new cjs.Rectangle(0,0,318.9,97.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
 
-	// Слой_5
-	this.instance_5 = new lib.Символ42копия();
+	// Слой_6
+	this.instance_5 = new lib.Символ1();
 	this.instance_5.parent = this;
-	this.instance_5.setTransform(-170.7,870,1.855,1.855,0,0,0,150.2,267);
-	this.instance_5.alpha = 0.57;
+	this.instance_5.setTransform(-66.5,773.5,0.97,0.814,0,-4.1,0,-255.2,450.9);
 
-	this.instance_6 = new lib.Символ42();
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
+
+	// Слой_5
+	this.instance_6 = new lib.Символ42копия();
 	this.instance_6.parent = this;
-	this.instance_6.setTransform(238.6,431.2,1.197,1.197,0,0,0,150.6,267.1);
+	this.instance_6.setTransform(303.7,269.5,1.031,1.031,0,0,0,150.2,267.2);
+	this.instance_6.alpha = 0.57;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_6},{t:this.instance_5}]}).wait(1));
+	this.instance_7 = new lib.Символ42();
+	this.instance_7.parent = this;
+	this.instance_7.setTransform(238.6,431.2,1.197,1.197,0,0,0,150.6,267.1);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_7},{t:this.instance_6}]}).wait(1));
 
 	// Слой_3
-	this.instance_7 = new lib.Символ55();
-	this.instance_7.parent = this;
-	this.instance_7.setTransform(94,276.6,1,1,0,0,0,113,140.5);
-	this.instance_7.alpha = 0.41;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(1));
-
-	// Слой 1
-	this.instance_8 = new lib.Символ34();
+	this.instance_8 = new lib.Символ55();
 	this.instance_8.parent = this;
-	this.instance_8.setTransform(115,347.7,1,2.25,0,0,0,750.6,203.1);
+	this.instance_8.setTransform(97.6,275.6,0.953,0.929,0,0,0,112.9,140.5);
+	this.instance_8.alpha = 0.621;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(1));
 
-	// Слой_4
-	this.instance_9 = new lib.Символ9();
+	// Слой 1
+	this.instance_9 = new lib.Символ34();
 	this.instance_9.parent = this;
-	this.instance_9.setTransform(117.5,346,0.818,0.818,0,0,0,521,521);
+	this.instance_9.setTransform(115,347.7,1,2.25,0,0,0,750.6,203.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(1));
 
+	// Слой_4
+	this.instance_10 = new lib.Символ9();
+	this.instance_10.parent = this;
+	this.instance_10.setTransform(117.5,346,0.818,0.818,0,0,0,521,521);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(1));
+
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-475.6,174.7,1501.6,1768.2);
+p.nominalBounds = new cjs.Rectangle(-475.6,174.7,1501.6,1235.8);
 // library properties:
 lib.properties = {
 	id: 'FD0DA4460804489CA5503C165EDED0E9',
@@ -1546,9 +1546,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1509374337445", id:"bg"},
-		{src:"images/man.png?1509374337445", id:"man"},
-		{src:"images/man2.png?1509374337445", id:"man2"}
+		{src:"images/bg.jpg?1509452714326", id:"bg"},
+		{src:"images/man.png?1509452714326", id:"man"},
+		{src:"images/man2.png?1509452714326", id:"man2"}
 	],
 	preloads: []
 };
